@@ -1,0 +1,99 @@
+<!-- Zain Asim Khalid, 991546886 -->
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Zain Khalid - Assignment #1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="assets/khalidza.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+  
+<body>
+  <header class="header">
+    <h6>Assignment #1 | Zain Khalid | 991546886</h6>
+  </header>
+  <div class="row" style="padding:10px;">
+    <!-- I wanted to put this form (card in Materialize) in the same sort of container you get all the info on the quote page in, but I'd already coded it
+         so it proved a little complicated working with the divs. I've just changed it to purple.  -->
+    <form id="inputForm" class="col s8 purple lighten-5" action="javascript:void(0);" method="post">
+      <h5 style="font-style: bold;">Get a Quote</h5>
+      <div class="row">
+        <div class="input-field col s3">
+          <input id="name" type="text" placeholder="Zain Khalid" value="Zain Khalid" required>
+          <label for="name">First Name</label>
+        </div>
+        <div class="input-field col s7">
+          <input id="email" type="text" placeholder="khalidza@sheridancollege.ca" value="khalidza@sheridancollege.ca" required>
+          <label for="email">Email</label>
+        </div>
+      </div>
+        <div class="row">
+        <div class="input-field col s10">
+          <select id="room">
+            <optgroup label="Indoor">
+              <option value="Living Room">Living Room</option>
+              <option value="Bedroom">Bedroom</option>
+              <option value="Bathroom">Bathroom</option>
+              <option value="Kitchen">Kitchen</option>
+            </optgroup>
+            <optgroup label="Outdoor">
+              <option value="Garage">Garage</option>
+              <option value="Patio">Patio</option>
+              <option value="Shed">Shed</option>
+            </optgroup>
+          </select>
+          <label>Choose Room for Window Installation</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s5">
+          <input id="windowLength" type="number" placeholder="5" value="5" required>
+          <label for="windowLength">Window Length (in.)</label>
+        </div>
+        <div class="input-field col s5">
+          <input id="windowWidth" type="number" placeholder="5" value="5" required>
+          <label for="windowWidth">Window Width (in.)</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s5">
+          <label>Pick Window Material</label><br><br>
+          <label>
+            <input name="material" id="glass" type="radio" value="glass" checked/>
+          <span style="margin-right:50px;">Glass</span>
+          </label>
+          <label>
+            <input name="material" id="vinyl" type="radio" value="vinyl"/>
+          <span style="margin-right:50px;">Vinyl</span>
+          </label>
+          <label>
+            <input name="material" id="fibreglass" type="radio" value="fibreglass"/>
+          <span>Fibreglass</span>
+          </label>
+        </div>
+        <div class="col s4 push-s3">
+          <br><br>
+          <button form="inputForm" class="btn waves-effect purple darken-3 btn-large" id="submitBtn" style="color: white;">Get Quote
+                  <i class="material-icons right">arrow_right_alt</i>
+          </button>
+        </div>
+      </div>
+    </form>
+    <div class="col s4">
+        <div class="card blue-grey lighten-10">
+            <div class="card-content white-text">
+              <img class="center" src="../assets/img/img.jpg" height="150" width="113"/><br>
+              <p style="font-style: oblique;">Hi, I'm Zain and I'll be assisting you with your new window purchase!</p>
+            </div>
+          </div>
+      </div>
+  </div>
+  <footer>
+    <h6>khalidza | Oakville - Trafalgar</h6>
+  </footer>
+</body>
+<script src="assets/khalidza.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>

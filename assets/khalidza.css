@@ -1,0 +1,22 @@
+.header {
+  text-align: center;
+  background-color: azure;
+  padding: 5px;
+}
+
+.form {
+  background-color: rgb(174, 249, 224);
+  padding: 25px;
+}
+
+footer {
+  text-align: center;
+  background-color: azure;
+  padding: 5px;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

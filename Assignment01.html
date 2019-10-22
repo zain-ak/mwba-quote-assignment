@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>SYST24444 Assignment 1</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../css/main.css">
+
+<style>
+	table#assignmentTable {
+	 width: 70%; margin-left: 15%; margin-right: 15%; text-align: left;
+	 border: thick solid navy; border-collapse: collapse;
+	}
+	table#assignmentTable th, table#assignmentTable td {border: thin solid navy; padding: 10px;}
+</style>
+</head>
+<body>
+<div class="header headfoot">Assignment 1 (10%) / ES6 and Local Storage</div>
+<div>
+	<ul>
+		<li>Create a mobile web site (Create a new folder to hold all files/folders))
+			<ul>
+				<li><strong>index.html</strong></li>
+				<li><strong>css folder</strong> that includes a <em>css</em> file that is named <strong>yourUserName.css</strong> (ex. doej.css)</li>
+				<li><strong>js folder</strong> that includes your <em>personal .js</em> script file that is named using <strong>yourUserName.js</strong> (ex. doej.js)</li>
+				<li><strong>images folder</strong> to hold any images needed for exercise</li>
+				<li><strong>pages folder</strong> to hold the 2nd page of the assignment called from index.html</li>
+			</ul>
+		</li>
+		<li>Enter <em>YOUR NAME</em> in the &lt;title&gt; tags AND your name and student number in a comment at the top of both the index.html and the 2nd page</li>
+		<hr>
+		<li>Header area that includes <em>Assignment #1 / Your Name / Your Student Number</em>; This header MUST be on both pages and span the entire page</li>
+		<li>Footer line that includes <em>Your Login Name / Your Campus</em>; this footer MUST be on both pages and span the entire page</li>
+		<li>Both pages MUST include a <em>picture of you</em> as the sales representative</li>
+		<br>
+		<li>Content area on the <strong>main entry page</strong> for a window installation quote will include inputs for the following:
+			<ul>
+				<li>Entry field (with labeling) for the Customer's name</li>
+				<li>Entry field (with labeling) for the Customer's email address</li>
+				<li>Entry field (with labeling) for which room the window is to be installed (use a drop-down list with at least 3 entries)</li>
+				<li>Entry field (with labeling) for the width of the window space</li>
+				<li>Entry field (with labeling) for the length of the window space</li>
+				<li>Check box list (with labeling) for the user to pick type of window material (vinyl, aluminum, fiberglass)</li>
+				<li>A button to create a quote for the customer on the 2nd page</li>
+				<br>
+				<li>
+					Layout should use CSS grid with at least 2 columns for the main entry section of the page. You can decide the layout (for example, entry fields on one side with button and your image on the other; your image on one side with entry fields and button on the other; a column for entry fields, one for button, and one for image; etc)
+				</li>
+				<li>Formatting, layout, colours, background, size, and labeling will all be considered in grading</li>
+				<li>All data <strong>MUST</strong> be saved to local storage on button click before calling the quote page and ES6 concepts used where applicable.</li>
+			</ul>
+		</li>
+		<hr>
+		<li>Content on the <strong>quote page</strong> (a separate page) will include the following once button is clicked:
+			<ul>
+				<li>Customer's contact information (name and email)</li>
+				<li>Room where window will be installed</li>
+				<li>Square footage of the window area based on length and width</li>
+				<li>Type of window material checked</li>
+				<li>The final price for the window based on the following:
+					<ul>
+						<li>Base window price is $500.00</li>
+						<li>Additional cost based on square footage: add $100.00 for every square foot (for example, a 2x2 window would be 4 square feet so $400.00 dollars would be added)</li>
+						<li>HST of 13% added</li>
+					</ul>
+				</li>
+				<br>
+				<li>All information MUST be labeled and formatting, layout, colours, background, and size will all be considered in grading</li>
+				<li>Data MUST be pulled from local storage in order to fill in quote page and ES6 concepts used where applicable.</li>
+			</ul>
+		</li>
+	<hr>
+	<p class="subHead">How I will be grading exercise...</p>
+		<ul>
+			<li>I will be using <strong>Chrome's Toggle Device Bar for Galaxy S5 in Landscape mode only</strong></li>
+			<li>Remember, this is a <strong>mobile site</strong> so formatting and layout should reflect this; too much scrolling or whitespace will reduce your mark.</li>
+		</ul>
+	<hr>
+	<p class="subHead">What to submit...</p>
+	<ul>
+		<li>Publish site to your cPanel account in an Assignments folder (does not have to be password protected) or a folder of your choice</li>
+		<li>To include in SLATE drop box:
+			<ul>
+				<li>ZIP the site folder / make sure all files/folders are included</li>
+				<li>Include a URL to your published site in the comment section</li>
+				<li>Include the username and password needed for me to access your Assignments folder <strong>ONLY IF YOU HAVE PASSWORD PROTECTED YOUR SITE</strong></li>
+			</ul>
+		</li>
+		<li>Remember: 
+			<ul>
+				<li>Once published, DO NOT change the site on cPanel. I will be running a script to check for publish date; if it differs from submission date, marks will be deducted</li>
+				<li>You have 3 days past the due date with 10% off per day to submit; After 3 days, the exercise will no longer be accepted</li>
+				<li>Sites not published will have 50% deducted automatically</li>
+				<li>See <strong>Academic Procedures for Evaluations</strong> in SLATE for full details on submission evaluations</li>
+				<li style="text-align: center;"><mark>Each assignment must be done individually.<br>I will be checking for copying especially if the assignments look similar and will file an academic integrity breach if necessary</mark></li><br>
+				<li style="text-align:center;"><mark>This is not an assignment that should be started the day it is due.<br>Since you have 2 weeks to complete the assignment, NO EXTENSIONS to the due date will be given.</li> 				
+			</ul>
+		</li>
+	</ul>
+
+	<hr>
+	<p class="subHead">Grading Rubric...</p>
+	<table id="assignmentTable">
+		<tr><th>Folder setup and commenting</th><td>0.5</td></tr>
+		<tr><th>Header, Footer and image on both pages</th><td>1.5</td></tr>
+		<tr><th>Entry page setup (mobile), layout, formatting, and local storage</th><td>4</td></tr>
+		<tr><th>Quote page setup (mobile), layout formatting, calculations, and local storage</th><td>4</td></tr>
+	</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!-- Zain Asim Khalid, 991546886 -->
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Zain Khalid - Assignment #1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../assets/khalidza.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+  
+<body onload="javascript:getStorage()">
+  <header class="header">
+    <h6>Assignment #1 | Zain Khalid | 991546886</h6>
+  </header>
+  <div class="row">
+    <div class="col s6 m8">
+      <!-- This is the container I'm talking about -->
+      <div class="card yellow lighten-1">
+        <div class="card-content red-text text-darken-4">
+          <h5>Personal Information</h5>
+          <p id="name"><strong>Name: </strong></p>
+          <p id="email"><strong>Email: </strong></p><br>
+          <h5>Quote Information</h5>
+          <p id="room"><strong>Room: </strong></p>
+          <p id="sqFoot"><strong>Square Footage: </strong></p>
+          <label class="red-text text-darken-4">Window Material</label><br>
+          <label>
+            <input name="material" id="glass" type="radio" value="glass" disabled="disabled"/>
+          <span style="margin-right:50px;">Glass</span>
+          </label>
+          <label>
+            <input name="material" id="vinyl" type="radio" value="vinyl" disabled="disabled"/>
+          <span style="margin-right:50px;">Vinyl</span>
+          </label>
+          <label>
+            <input name="material" id="fibreglass" type="radio" value="fibreglass" disabled="disabled"/>
+          <span>Fibreglass</span>
+          </label>
+          <br><br><p id="cost" ><strong>Total Cost (tax incl.): </strong>$</p>
+          <p id="costBreakdown" style="font-size: 0.6em;" class="red-text text-darken-2"><strong>Breakdown: </strong></p>
+        </div>
+      </div>
+    </div>
+    <div class="col s4">
+      <div class="card blue-grey lighten-10">
+          <div class="card-content white-text">
+            <img class="center" src="../assets/img/img.jpg" height="150" width="113"/><br>
+            <p style="font-style: oblique;">Hi, I'm Zain and I'll be assisting you with your new window purchase!</p>
+          </div>
+        </div>
+    </div>
+  </div>
+  <footer>
+    <h6>khalidza | Oakville - Trafalgar</h6>
+  </footer>
+</body>
+<script src="../assets/khalidza.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>
